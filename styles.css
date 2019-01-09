@@ -1,0 +1,19 @@
+body {
+  background-color: #2f3640;
+}
+
+.header {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.header-img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: #FF355E 4px solid;
+}
