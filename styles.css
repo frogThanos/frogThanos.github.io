@@ -65,7 +65,22 @@ footer a {
   text-decoration: aliceblue underline;
 }
 
-#about-me {
+#about-me:hover {
   transition: color 0.5s;
   color: #DD0048;
+}
+
+#skills:hover {
+  transition: color 0.5s;
+  color: #74ee15;
+}
+
+#work-now:hover {
+  transition: color 0.5s;
+  color: #4deeea;
+}
+
+#experience:hover {
+  transition: color 0.5s;
+  color: #f000ff
 }
