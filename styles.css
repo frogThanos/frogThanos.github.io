@@ -7,8 +7,8 @@ body {
 
 header {
   width: 100%;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 header img {
@@ -18,6 +18,12 @@ header img {
   height: 360px;
   width: 360px;
   border-radius: 50%;
+  filter: grayscale(100%);
+}
+
+header img:hover {
+  filter: none;
+  transition: filter 0.5s;
 }
 
 section {
@@ -57,4 +63,9 @@ footer ul li {
 footer a {
   color: aliceblue;
   text-decoration: aliceblue underline;
+}
+
+#about-me {
+  transition: color 0.5s;
+  color: #DD0048;
 }
