@@ -1,9 +1,11 @@
 body {
   background-color: #2f3640;
   color: aliceblue;
+  font-size: 28px;
+  font-family: monospace, sans-serif;
 }
 
-.header {
+header {
   width: 100%;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -13,8 +15,19 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  height: 200px;
-  width: 200px;
+  height: 360px;
+  width: 360px;
   border-radius: 50%;
   border: #FF355E 4px solid;
 }
+
+section {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+}
+
+
+/*media queries*/
+
