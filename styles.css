@@ -45,5 +45,10 @@ footer ul li {
   flex: 1;
 }
 
+footer a {
+  color: aliceblue;
+  text-decoration: aliceblue underline;
+}
+
 /*media queries*/
 
