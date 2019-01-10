@@ -1,7 +1,7 @@
 body {
   background-color: #2f3640;
   color: aliceblue;
-  font-size: 26px;
+  font-size: 24px;
   font-family: 'Share Tech Mono', monospace;
 }
 
@@ -19,11 +19,6 @@ header img {
   width: 360px;
   border-radius: 50%;
   filter: grayscale(100%);
-}
-
-header img:hover {
-  filter: none;
-  transition: filter 0.5s;
 }
 
 section {
@@ -66,21 +61,21 @@ footer a {
 }
 
 #about-me:hover {
-  transition: color 0.5s;
+  transition: color 0.5s ease-in-out;
   color: #DD3C32;
 }
 
 #skills:hover {
-  transition: color 0.5s;
+  transition: color 0.5s ease-in-out;
   color: #74ee15;
 }
 
 #work-now:hover {
-  transition: color 0.5s;
+  transition: color 0.5s ease-in-out;
   color: #4deeea;
 }
 
 #experience:hover {
-  transition: color 0.5s;
+  transition: color 0.5s ease-in-out;
   color: #f000ff
 }
