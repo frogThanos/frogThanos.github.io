@@ -91,4 +91,8 @@ footer a {
   section {
     margin-bottom: 40px;
   }
+  header img {
+    height: 180px;
+    width: 180px;
+  }
 }
