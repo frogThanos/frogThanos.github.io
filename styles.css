@@ -64,27 +64,19 @@ footer a {
   text-decoration: aliceblue underline;
 }
 
-#about-me:hover,
-#about-me:focus {
-  transition: color 0.5s ease-in-out;
-  color: #DD3C32;
+#about-me {
+  color: #DD3C32 !important;
 }
 
-#skills:hover,
-#skills:focus {
-  transition: color 0.5s ease-in-out;
+#skills {
   color: #74ee15;
 }
 
-#work-now:hover,
-#work-now:focus {
-  transition: color 0.5s ease-in-out;
+#work-now {
   color: #4deeea;
 }
 
-#experience:hover,
-#experience:focus {
-  transition: color 0.5s ease-in-out;
+#experience {
   color: #f000ff
 }
 
