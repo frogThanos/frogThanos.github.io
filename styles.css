@@ -1,5 +1,5 @@
 body {
-  background-color: #2f3640;
+  background-color: black;
   color: aliceblue;
   font-size: 24px;
   font-family: 'Share Tech Mono', monospace;
@@ -27,6 +27,13 @@ section {
   margin-bottom: 80px;
   display: block;
   text-align: center;
+}
+
+h2 {
+  text-align: left;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h3 {
@@ -96,6 +103,10 @@ footer a {
     height: 180px;
     width: 180px;
   }
+  h2 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   .text-wrapper {
     padding-left: 20px;
     padding-right: 20px;
@@ -103,6 +114,10 @@ footer a {
 }
 
 @media (min-width: 768px) and (max-width: 1440px) {
+  h2 {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
   .text-wrapper {
     padding-left: 40px;
     padding-right: 40px;
